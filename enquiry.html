@@ -115,32 +115,13 @@
               <li class="dropdown">
                 <a href="#" data-toggle="dropdown">Products <i class="fa fa-chevron-down dropdown-toggle"></i></a>
                 <ul>
-                  <li class="dropdown-submenu main-product-sub-list">
-                    <a href="palm-oil-products.html">
-                      Palm Oil Products
-                      <i class="fa fa-chevron-down dropdown-toggle"></i>
-                    </a>
-                    <ul class="dropdown-menu product-sub-list">
-                      <li><a href="palm-oil-products.html">Crude Palm Oil</a></li>
-                      <li><a href="refined-glycerine.html">Refined Palm Oil</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="soft-oil-products.html">Soft Oil Products</a></li>
-                  <li><a href="lauric-oil-products.html">Lauric Oil Products</a></li>
-                  <li><a href="texturized-fats.html">Texturized Fats</a></li>
-                  <li><a href="soyabean-meal.html">Soyabean Meal</a></li>
-                  <li><a href="palm-kernal-expeller.html">Palm Kernal Expeller</a></li>
-                  <li class="dropdown-submenu main-product-sub-list">
-                    <a href="other-products.html">
-                      Other Products
-                      <i class="fa fa-chevron-down dropdown-toggle"></i>
-                    </a>
-                    <ul class="dropdown-menu product-sub-list">
-                      <li><a href="betel-nuts.html">Betel Nut</a></li>
-                      <li><a href="natural-rubber.html">Natural Rubber</a></li>
-                    </ul>
-                  </li>
-                </ul>
+        <li><a href="prod-crude-palm-oil.html">Crude Palm Oil (CPO)</a></li>
+        <li><a href="prod-crude-palm-kernel-oil.html">Crude Palm Kernel Oil (CPKO)</a></li>
+        <li><a href="prod-palm-acid-oil.html">Palm Acid Oil (PAO)</a></li>
+        <li><a href="prod-palm-kernel-expeller.html">Palm Kernel Expeller (PKE)</a></li>
+        <li><a href="prod-palm-kernel-shell.html">Palm Kernel Shell (PKS)</a></li>
+        <li><a href="prod-crude-glycerine.html">Crude Glycerine</a></li>
+    </ul>
               </li>
               <li class="logo-c-new">
                 <a href="index.html"><img src="./images/new-logo.png" alt="Offshore Logo" /></a>
@@ -167,141 +148,211 @@
 
 
 
-      <section class="pb--media-120-50">
-        <div class="container">
-          <div class="row about-sidebar">
-            <div class="col-md-12">
-              <div class="section-title text-center">
-                <h2 class="title-services-other title-2">
-                  Inquiry
-                </h2>
-                <p>Please provide your information below. Fields marked with * are required.</p>
-              </div>
-            </div>
 
-            <div class="col-md-2"></div>
-            <div class="col-md-8 mt--20">
-              <div class="contact-form-wrapper">
-                <form action="./enquiry.php" method="post" class="contact-form" novalidate>
-                  <div class="d-none">
-                    <input type="hidden" name="_form_id" value="1512">
-                    <input type="hidden" name="_form_version" value="6.0.3">
-                  </div>
-
-                  <div class="row g-3">
-                    <!-- Row 1 -->
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <input class="form-control" required placeholder="Name" type="text" name="user-name">
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <input class="form-control" required placeholder="Phone" type="tel" name="phone">
-                      </div>
-                    </div>
-
-                    <!-- Row 2 -->
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <input class="form-control" required placeholder="Email" type="email" name="email">
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <input class="form-control" required placeholder="Company Name" type="text" name="company-name">
-                      </div>
-                    </div>
-
-                    <!-- Row 3 -->
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <input class="form-control" required placeholder="Product" type="text" name="product">
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <select class="form-select" required name="packing-type">
-                          <option value="">Packing Type</option>
-                          <option value="PET BOTTLE">PET BOTTLE</option>
-                          <option value="JERRY CAN">JERRY CAN</option>
-                          <option value="CARTON">CARTON</option>
-                          <option value="TIN CAN">TIN CAN</option>
-                          <option value="DRUM">DRUM</option>
-                          <option value="FLAXIBAG">FLAXIBAG</option>
-                          <option value="BAG IN BOX">BAG IN BOX</option>
-                          <option value="BULK">BULK</option>
-                          <option value="OTHER">OTHER</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <!-- Row 4 -->
-                    <div class="col-xl-12 col-lg-12 col-md-12">
-                      <div class="form-group">
-                        <select class="form-select" required name="packing-size">
-                          <option value="">Packing Size</option>
-                          <option value="0.9L">0.9L</option>
-                          <option value="1L">1L</option>
-                          <option value="1.5L">1.5L</option>
-                          <!-- Other size options... -->
-                          <option value="200KG">200KG</option>
-                          <option value="21MT">21MT</option>
-                          <option value="Bulk">Bulk</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <select class="form-select" required name="monthly-order-quantity">
-                          <option value="">Monthly Order Quantity</option>
-                          <option value="1 FCL">1 FCL</option>
-                          <option value="2 FCL">2 FCL</option>
-                          <!-- Other quantity options... -->
-                          <option value="10 FCL">10 FCL</option>
-                          <option value="More than 10 FCL">More than 10 FCL</option>
-                          <option value="Bulk">Bulk</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <!-- Row 5 -->
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                      <div class="form-group">
-                        <input class="form-control" required placeholder="Delivery Terms (FOB, CFR, or CIF)" type="text"
-                          name="delivery-terms">
-                      </div>
-                    </div>
-                    <div class="col-xl-12 col-lg-12 col-md-12">
-                      <div class="form-group">
-                        <input class="form-control" placeholder="Destination (Port Name)" type="text"
-                          name="destination">
-                      </div>
-                    </div>
-
-                    <!-- Message Field -->
-                    <div class="col-xl-12 col-lg-12 col-md-12">
-                      <div class="form-group">
-                        <textarea class="form-control" required rows="5" placeholder="Write Message"
-                          name="message"></textarea>
-                      </div>
-                    </div>
-
-                    <!-- Submit Button -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 text-center">
-                      <button type="submit" class="btn btn-primary">Send Message</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-
-            <div class="col-md-2"></div>
-
-          </div>
+<section class="pb--media-120-50 product-inquiry-section">
+  <div class="container">
+    <div class="row about-sidebar">
+      <div class="col-md-12">
+        <div class="section-title text-center">
+          <h2 class="title-services-other title-2">
+            Product Inquiry
+          </h2>
+          <h4>Letâ€™s Discuss Your Requirements</h4>
+          <p>
+            Looking for a reliable source of palm oil and palm-derived
+            products? Share your requirements with us, and our team
+            will get back to you with the relevant product and supply information.
+          </p>
         </div>
-      </section>
+      </div>
+
+      <div class="col-md-2"></div>
+
+      <div class="col-md-8 mt--20">
+        <div class="contact-form-wrapper">
+          <form
+            action="./enquiry.php"
+            method="post"
+            class="contact-form"
+          >
+            <div class="d-none">
+              <input type="hidden" name="_form_id" value="1512">
+              <input type="hidden" name="_form_version" value="6.0.3">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="inquiry-form-heading">
+              <h4>Contact Information</h4>
+              <p>Please provide your business contact details.</p>
+            </div>
+
+            <div class="row g-3">
+
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label for="inquiry-name">Full Name <span>*</span></label>
+                  <input
+                    id="inquiry-name"
+                    class="form-control"
+                    type="text"
+                    name="user-name"
+                    placeholder="Enter your full name"
+                    autocomplete="name"
+                    required
+                  >
+                </div>
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label for="inquiry-company">Company Name <span>*</span></label>
+                  <input
+                    id="inquiry-company"
+                    class="form-control"
+                    type="text"
+                    name="company-name"
+                    placeholder="Enter your company name"
+                    autocomplete="organization"
+                    required
+                  >
+                </div>
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label for="inquiry-email">Business Email <span>*</span></label>
+                  <input
+                    id="inquiry-email"
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your business email"
+                    autocomplete="email"
+                    required
+                  >
+                </div>
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label for="inquiry-phone">Phone / WhatsApp</label>
+                  <input
+                    id="inquiry-phone"
+                    class="form-control"
+                    type="tel"
+                    name="phone"
+                    placeholder="Enter your contact number"
+                    autocomplete="tel"
+                  >
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label for="inquiry-country">Country / Region <span>*</span></label>
+                  <input
+                    id="inquiry-country"
+                    class="form-control"
+                    type="text"
+                    name="country-region"
+                    placeholder="Enter your country or region"
+                    autocomplete="country-name"
+                    required
+                  >
+                </div>
+              </div>
+
+              <!-- Product Requirements -->
+              <div class="col-12">
+                <div class="inquiry-form-heading">
+                  <h4>Product Requirements</h4>
+                  <p>Tell us which products and quantities you require.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label for="inquiry-product">Product of Interest <span>*</span></label>
+                  <select
+                    id="inquiry-product"
+                    class="form-select"
+                    name="product"
+                    required
+                  >
+                    <option value="" selected disabled>Select a product</option>
+                    <option value="Crude Palm Oil (CPO)">Crude Palm Oil (CPO)</option>
+                    <option value="Palm Kernel Oil (PKO)">Palm Kernel Oil (PKO)</option>
+                    <option value="Palm Kernel Shell (PKS)">Palm Kernel Shell (PKS)</option>
+                    <option value="Palm Acid Oil (PAO)">Palm Acid Oil (PAO)</option>
+                    <option value="Crude Glycerine (CG)">Crude Glycerine (CG)</option>
+                    <option value="Palm Kernel Expeller (PKE)">Palm Kernel Expeller (PKE)</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label for="inquiry-quantity">Required Quantity</label>
+                  <input
+                    id="inquiry-quantity"
+                    class="form-control"
+                    type="text"
+                    name="required-quantity"
+                    placeholder="e.g. 20 MT or 1 FCL"
+                  >
+                </div>
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="form-group">
+                  <label for="inquiry-destination">Target Delivery Location</label>
+                  <input
+                    id="inquiry-destination"
+                    class="form-control"
+                    type="text"
+                    name="destination"
+                    placeholder="Enter country or port name"
+                  >
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label for="inquiry-message">Additional Requirements</label>
+                  <textarea
+                    id="inquiry-message"
+                    class="form-control"
+                    rows="5"
+                    name="message"
+                    placeholder="Share product specifications, packaging, application, delivery requirements, or other details"
+                  ></textarea>
+                </div>
+              </div>
+
+              <!-- Request a Quote -->
+              <div class="col-xl-12 col-lg-12 col-md-12 text-center">
+                <button type="submit" class="btn btn-primary">
+                  REQUEST A QUOTE <span aria-hidden="true">&rarr;</span>
+                </button>
+
+                <p class="inquiry-form-note">
+                  Our team will review your requirements and respond with
+                  the relevant product specifications, availability, and
+                  supply information.
+                </p>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</section>
+
 
     </main>
     <!-- Main Content Section -->
@@ -385,12 +436,13 @@
               <div class="our-services widget">
                 <h2 class="widget-title">Products</h2>
                 <ul>
-                  <li><a href="palm-oil-products.html">Crude Palm Oil</a></li>
-                  <li><a href="crude-glycerine.html">Crude Glycerine</a></li>
-                  <li><a href="palm-kernal-expeller.html">Crude Palm Kernel Oil</a></li>
-                  <li><a href="palm-oil-products.html">Palm Fatty Acid Distillate</a></li>
-                  <li><a href="palm-kernal-expeller.html">Palm Kernel Fatty Acid Distillate</a></li>
-                </ul>
+        <li><a href="prod-crude-palm-oil.html">Crude Palm Oil (CPO)</a></li>
+        <li><a href="prod-crude-palm-kernel-oil.html">Crude Palm Kernel Oil (CPKO)</a></li>
+        <li><a href="prod-palm-acid-oil.html">Palm Acid Oil (PAO)</a></li>
+        <li><a href="prod-palm-kernel-expeller.html">Palm Kernel Expeller (PKE)</a></li>
+        <li><a href="prod-palm-kernel-shell.html">Palm Kernel Shell (PKS)</a></li>
+        <li><a href="prod-crude-glycerine.html">Crude Glycerine</a></li>
+    </ul>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -425,7 +477,7 @@
             <div class="col-md-8">
               <span><img src="./images/favicon.png" alt="Icon"></span>
               <p>
-                Copyrights © 2025 - Royal Energy Industry Co. Ltd - All Rights
+                Copyrights ï¿½ 2025 - Royal Energy Industry Co. Ltd - All Rights
                 Reserved.
               </p>
             </div>
@@ -454,10 +506,10 @@
   </div>
 
   <!-- Page Wrapper
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
 
   <!-- Javascripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
 
   <!-- Jquery Library -->
   <script src="js/jquery.min.js"></script>
